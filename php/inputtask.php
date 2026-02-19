@@ -13,7 +13,7 @@ session_start();
 <body>
     <div class="welcome-heading">
      <a href ="logout.php">
-        -Welcome, <?php echo $_SESSION['username']; ?>!!
+        -Welcome, <?php echo $_SESSION['username']; ?> !!
     </a>
     </div>
     <div class="task-container">

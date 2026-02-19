@@ -13,7 +13,7 @@ session_start();
 </head>
 <body>
      <a href ="logout.php">
-        -Welcome, <?php echo $_SESSION['username']; ?>!!
+        -Welcome, <?php echo $_SESSION['username']; ?> !!
     </a>
     <marquee scrollamount="15"> Your task was created successfully!!</marquee>
     

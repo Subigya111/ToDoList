@@ -12,10 +12,12 @@ session_start();
     <title>Edit</title>
     <div class="welcome-heading">
      <a href ="logout.php">
-        -Welcome, <?php echo $_SESSION['username']; ?>!!
+        -Welcome, <?php echo $_SESSION['username']; ?> !!
     </a>
     </div>
     <div class ="update-container">
+        <h4> Update your task:</h4><br>
+    
         <form action="update.php" method="post">
             <input type="hidden" name="id" value="<?php echo $_SESSION['id'];?>">
             <input type="text" name="updatetask" value="<?php echo $_SESSION['task'];?>">
