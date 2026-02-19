@@ -36,6 +36,7 @@ session_start();
         
     }
     ?>
+        <h4> You created:</h4><br><br>
         <form action="edit.php" method="POST">  
             Task : <?php echo $task['task'];?>
             <br><br>
