@@ -6,7 +6,9 @@ $data=mysqli_query($connection,$remain);
         while($taskremain=mysqli_fetch_assoc($data)){
             echo var_dump($taskremain);
             echo "<br>";
-            
         }
+    }
+    else{
+        echo "You have no tasks remaining";
     }
     ?>
