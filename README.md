@@ -1,24 +1,24 @@
- #This is a simple todo web app with following features: 
+ # This is a simple todo web app with following features: 
 
-. Add new tasks
+- Add new tasks
 
-. View all tasks
+- View all tasks
 
-. Update existing tasks
+- Update existing tasks
 
-. Delete tasks
+- Delete tasks
 
-. Simple and easy-to-use interface
-
+ ## Overview
+Simple and easy-to-use interface
 . Uses MySQL database to store tasks
 
-Prerequisites: 
+## Prerequisites: 
 
-Before using this app, make sure you have:
+ ### Before using this app, make sure you have:
 
-XAMPP installed (Apache + MySQL)
+- XAMPP installed (Apache + MySQL)
 
-PHP installed (comes with XAMPP)
+- PHP installed (comes with XAMPP)
 
-MySQL / phpMyAdmin to create the database
+- MySQL / phpMyAdmin to create the database
 
