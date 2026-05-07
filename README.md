@@ -14,8 +14,6 @@ Simple and easy-to-use interface
 
 ## Prerequisites: 
 
- ### Before using this app, make sure you have:
-
 - XAMPP installed (Apache + MySQL)
 
 - PHP installed (comes with XAMPP)
